@@ -7,4 +7,7 @@ void fun() {
     fun(); // recursion
 }
 
-int main() { return 0; }
+int main() {
+    fun();
+    return 0;
+}
