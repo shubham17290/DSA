@@ -14,7 +14,9 @@ bool issorted(int arr[], int n, int i) {
 
 int main() {
     int arr1[5] = {1, 2, 3, 4, 5}; // sorted -> 1
-    int arr2[] = {1, 2, 3, 5, 4};
+    int arr2[6] = {1, 2, 3, 5, 4};
+    cout << issorted(arr1, 5, 0) << endl;
+    ;
     cout << issorted(arr2, 5, 0);
     return 0;
 }
